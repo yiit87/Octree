@@ -26,22 +26,6 @@ using UnityEngine;
 //For deleting or pushing you need to highlight the object which happens when the middle of the screen targets the cubes
 //
 //Current code can give exception if the cubes spawned too close. Its trying to divide the nodes too small so unity gives errors. This can be overcome by adding a limit for min splitting amount.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class OctreeNode
 {
     //How many items can the octree nodes contain before giving birth to 8 smaller children? by splitting
